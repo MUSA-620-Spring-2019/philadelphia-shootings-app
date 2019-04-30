@@ -1,13 +1,20 @@
+channels:
+  - pyviz
+  - conda-forge
+  - defaults
 dependencies:
-  - nbserverproxy
-  - pyviz:holoviews
-  - pyviz::panel
-  - pyviz::param
-  - pyviz::hvplot
-  - bokeh::bokeh
-  - pandas
-  - numpy
+  - geopandas
+  - folium
   - altair
   - notebook
   - vega
+  - nbserverproxy
+  - param
+  - pyviz_comms
+  - datashader
+  - holoviews
+  - geoviews
+  - hvplot
+  - bokeh
+  - panel
   - tornado<6
