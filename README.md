@@ -14,6 +14,10 @@ The dashboard includes:
 
 As the user filters the daily shootings chart, the data displayed on the other charts will update to only include the data in this part.
 
+### Note
+
+If you receive a "Request Timeout" or "Connection Refused" error when loading the app, try waiting a few minutes and re-clicking on the app launch button above. 
+
 ### Repository Files
 
 - `environment.yml` installing bokeh and nbserverproxy
